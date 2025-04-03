@@ -3,27 +3,55 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Portfolio - Théo</title>
-  <link rel="stylesheet" href="assets/css/style.css" />
+  <title>Portfolio Théo</title>
+  <link rel="stylesheet" href="assets/css/base.css" />
+  <link rel="stylesheet" href="assets/css/layout.css" />
+  <link rel="stylesheet" href="assets/css/components.css" />
+  <link rel="stylesheet" href="assets/css/menu.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
 </head>
 <body>
-  <header>
 
-    
-    <nav class="navbar">
-      <h1>Théo</h1>
-      <ul class="nav-links">
-        <li><a href="index.html">Accueil</a></li>
-        <li><a href="pages/cursus/ebusiness/ebusiness_menu.html">Cursus</a></li>
-        <li><a href="pages/projects/projet1.html">Projets</a></li>
-      </ul>
-      <button id="themeToggle" aria-label="Toggle dark mode">🌓</button>
-    </nav>
-  </header>
+    <header>
+        <nav class="navbar">
+          <div class="nav-left"></div>
+      
+          <div class="nav-title">
+            <a href="index.html" class="nav-link-title">Portfolio Théo</a>
+          </div>
+      
+          <div class="nav-right">
+            <button id="themeToggle" title="Changer de thème">🌓</button>
+          </div>
+        </nav>
+      </header>
+      
 
   <main class="container">
-    <h2>Bienvenue</h2>
-    <p>test</p>
+    <section class="menu">
+      <h2>Bienvenue</h2>
+      <ul class="nav-list">
+        <li>
+          <strong><i class="fas fa-graduation-cap"></i> Cursus :</strong>
+          <ul>
+            <li><a href="pages/cursus/ebusiness/ebusiness_menu.html"><i class="fas fa-book"></i> e-Business</a></li>
+            <li><a href="pages/cursus/autrecours/autrecours_menu.html"><i class="fas fa-book-open"></i> Autre cours</a></li>
+          </ul>
+        </li>
+        <li>
+          <strong><i class="fas fa-folder-open"></i> Projets :</strong>
+          <ul>
+            <li><a href="pages/projects/projet1.html"><i class="fas fa-laptop-code"></i> Portfolio Dev</a></li>
+          </ul>
+        </li>
+        <li>
+          <strong><i class="fas fa-link"></i> Autres :</strong>
+          <ul>
+            <li><a href="https://github.com/TheoDscps" target="_blank"><i class="fab fa-github"></i> Mon GitHub</a></li>
+          </ul>
+        </li>
+      </ul>
+    </section>
   </main>
 
   <script src="assets/js/script.js"></script>

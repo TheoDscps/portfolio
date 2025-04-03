@@ -1,0 +1,80 @@
+.menu ul {
+    list-style: none;
+    margin-top: 1rem;
+  }
+  
+  .menu li {
+    margin-bottom: 1rem;
+  }
+  
+  .menu a {
+    text-decoration: none;
+    color: var(--accent);
+    font-weight: bold;
+    font-size: 1.1rem;
+  }
+  
+  .menu a:hover {
+    text-decoration: underline;
+  }
+  
+  .nav-list {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 2rem;
+  }
+  
+  .nav-list > li {
+    margin-bottom: 1.5rem;
+  }
+  
+  .nav-list strong {
+    color: var(--text);
+    font-size: 1.1rem;
+  }
+  
+  .nav-list ul {
+    list-style: disc;
+    margin-left: 1.5rem;
+    margin-top: 0.5rem;
+  }
+  
+  .nav-list li ul li {
+    margin: 0.3rem 0;
+  }
+  
+  .nav-list a {
+    color: var(--accent);
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  .nav-list a:hover {
+    text-decoration: underline;
+  }
+  
+
+  .course-nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 3rem 0 2rem;
+    padding-top: 2rem;
+    border-top: 1px solid var(--accent);
+  }
+  
+  .course-nav a {
+    font-weight: 500;
+    font-size: 1rem;
+    color: var(--accent);
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .course-nav a:hover {
+    color: var(--text);
+  }
+  
+  .course-nav i {
+    margin: 0 0.4rem;
+  }
+  

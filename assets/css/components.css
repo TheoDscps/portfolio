@@ -1,0 +1,40 @@
+/* TITRE NAVBAR CENTRÉ */
+.navbar h1 {
+    font-size: 1.5rem;
+    color: var(--text);
+    margin: 0;
+  }
+  
+  /* DARK MODE TOGGLE */
+  #themeToggle {
+    background: none;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    color: var(--text);
+  }
+
+  .nav-title {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .nav-link-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--text);
+    transition: color 0.2s ease;
+  }
+  
+  .nav-link-title:hover {
+    color: var(--accent);
+  }
+  
+  
+  /* ICONES DANS LES LISTES DE MENU */
+  .nav-list i {
+    margin-right: 0.5rem;
+    color: var(--accent);
+  }
+  
